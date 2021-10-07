@@ -1,0 +1,11 @@
+git config -- global user.name
+git config -- global user.email
+git status
+git init
+git add --a
+git add .
+git add filename
+git commit -m "message"
+rm -rf .git
+git diff (compares working dir with staging area)
+git diff --staged (compares staging area with last commit)
